@@ -16,8 +16,8 @@ When diving into Kubernetes, having a reliable local development environment is 
 In Part 1, we deployed a simple application on Kubernetes. Now, let’s introduce Vault to manage secrets dynamically. Our goal is to populate an environment variable in the app with a secret stored in Vault. We will manually unseal Vault and use the Vault Agent Injector to handle secret injection.
 
 #### Assumptions
-- Part 1 is completed.
-- Helm is installed.
+- Part 1 is completed, deployed & running.
+- `helm` is installed.
 - `jq` is installed.
 
 #### Verifying the Cluster
@@ -252,13 +252,12 @@ export SECRET="this is a secret stored in vault and exported with vault injector
 ### Conclusion
 We have successfully integrated Vault into our Kubernetes application to dynamically inject secrets. This setup forms the foundation for managing secrets securely in production environments.
 
----
 
 ## KIND Installation
 
 The installation steps are straightforward and documented well [here](#).
 
----
+
 
 ## Setting Up Our Cluster
 
@@ -269,7 +268,7 @@ We can create this using a simple configuration file and the KIND CLI:
 ### Create the cluster by running:
 *(Command to create the cluster goes here)*
 
----
+
 
 ## Test Application
 
@@ -281,7 +280,7 @@ We'll use a simple Flask web application that demonstrates environment variable 
 ### Dockerfile:
 *(Dockerfile contents go here)*
 
----
+
 
 ## Deploying to Kubernetes
 
@@ -290,7 +289,7 @@ With our application containerized, we can deploy it to our cluster.
 ### Create the following files:
 *(Details about the required manifest files go here)*
 
----
+
 
 ## Setting Up Ingress Controller
 
@@ -301,7 +300,7 @@ To handle external IPs locally, we'll need KIND's cloud provider. Detailed [here
 Running `cloud-provider-kind` will attach an external IP to our ingress controller. In my case, it looks like this:
 *(Details of the external IP setup go here)*
 
----
+
 
 ## Final Configuration
 
@@ -309,7 +308,7 @@ The last step is to update our `/etc/hosts` file to route traffic to our applica
 *(Instructions for updating the `/etc/hosts` file go here)*  
 *(Be sure to update the IP address with the output from your controller)*
 
----
+
 
 ## What We've Accomplished
 
@@ -325,7 +324,7 @@ You can now access the applications by visiting:
 - [http://app-a.local](http://app-a.local)
 - [http://app-b.local](http://app-b.local)
 
----
+
 
 ## Key Takeaways
 
@@ -334,6 +333,6 @@ You can now access the applications by visiting:
 - Environment variables offer a flexible way to configure applications.
 - Local DNS configuration enables seamless access to your services.
 
----
+
 
 This setup provides a solid foundation for local Kubernetes development. In the next part, we'll explore further and introduce tools like **Vault** for secret management.
