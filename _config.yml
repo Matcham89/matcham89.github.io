@@ -123,7 +123,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "YouTube"
-      icon: "fa fa-youtube-play"
+      icon: "fab fa-youtube"
       url: "https://www.youtube.com/@ChrisMatcham?sub_confirmation=1"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
