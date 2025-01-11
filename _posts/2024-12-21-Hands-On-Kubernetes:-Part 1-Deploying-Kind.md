@@ -3,7 +3,7 @@
 
 When diving into Kubernetes, having a reliable local development environment is crucial. In this post, I'll walk through setting up a local Kubernetes cluster using KIND (Kubernetes IN Docker) and deploying a simple application to it.
 
-## Assumptions
+#### Assumptions
 
 - **Quick Read:** [link](https://matcham89.github.io/Hands-On-Kubernetes-Part-2-Deploying-Vault/)
 - **Laptop / Machine to run KIND:** (Linux/Mac/Windows)
@@ -14,45 +14,45 @@ When diving into Kubernetes, having a reliable local development environment is 
 
 
 
-## KIND Installation
+#### KIND Installation
 
 The installation steps are straightforward and documented well [here](#).
 
 
 
-## Setting Up Our Cluster
+#### Setting Up Our Cluster
 
 Let's start by creating a KIND cluster with one control plane node and two worker nodes running Kubernetes v1.32.0.
 
 We can create this using a simple configuration file and the KIND CLI:
 
-### Create the cluster by running:
+##### Create the cluster by running:
 *(Command to create the cluster goes here)*
 
 
 
-## Test Application
+#### Test Application
 
 We'll use a simple Flask web application that demonstrates environment variable configuration and secret management. Here's the current structure and the application:
 
-### Application Tree:
+##### Application Tree:
 *(Application tree structure goes here)*
 
-### Dockerfile:
+##### Dockerfile:
 *(Dockerfile contents go here)*
 
 
 
-## Deploying to Kubernetes
+#### Deploying to Kubernetes
 
 With our application containerized, we can deploy it to our cluster.
 
-### Create the following files:
+##### Create the following files:
 *(Details about the required manifest files go here)*
 
 
 
-## Setting Up Ingress Controller
+#### Setting Up Ingress Controller
 
 KIND provides its own ingress controller, which we can deploy with. Detailed [here](#).
 
@@ -63,7 +63,7 @@ Running `cloud-provider-kind` will attach an external IP to our ingress controll
 
 
 
-## Final Configuration
+#### Final Configuration
 
 The last step is to update our `/etc/hosts` file to route traffic to our applications:  
 *(Instructions for updating the `/etc/hosts` file go here)*  
@@ -71,7 +71,7 @@ The last step is to update our `/etc/hosts` file to route traffic to our applica
 
 
 
-## What We've Accomplished
+#### What We've Accomplished
 
 At this point, we have:
 
@@ -87,7 +87,7 @@ You can now access the applications by visiting:
 
 
 
-## Key Takeaways
+#### Key Takeaways
 
 - **KIND** provides a robust local Kubernetes environment.
 - The built-in ingress controller simplifies local access to applications.
