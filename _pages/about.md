@@ -3,7 +3,7 @@ permalink: /about/
 layout: splash
 
 ---
-
+<br />
 
 
 [![My Skills](https://skillicons.dev/icons?i=bash,gcp,git,grafana,kubernetes,terraform,vscode)](https://skillicons.dev)
@@ -19,12 +19,13 @@ A Few Things About Me:
 📊 Grafana Fan: Turning boring metrics into dashboards that even non-techies can appreciate.
 🐚 Bash Believer: For when I need to automate all the things.
 ☕ Code & Coffee Enthusiast: Fuel for the brain while debugging YAML files and pipelines.
+
 My Tech Playground:
 
-    Kubernetes: Managing containers like they’re my favorite pets (they kind of are).
-    ☁️ Google Cloud Platform: Where the magic of scalability and reliability happens.
-    Helm: Because who doesn’t love neat package management?
-    Terraform: IaC wizardry to keep things consistent and predictable.
-    CI/CD Tools: Streamlining development processes so code goes from idea to production in record time.
+* Kubernetes: Managing containers like they’re my favorite pets (they kind of are).
+* ☁️ Google Cloud Platform: Where the magic of scalability and reliability happens.
+* Helm: Because who doesn’t love neat package management?
+* Terraform: IaC wizardry to keep things consistent and predictable.
+* CI/CD Tools: Streamlining development processes so code goes from idea to production in record time.
 
 When I'm not in front of a screen, I'm probably exploring Calgary, tinkering with side projects, or dreaming up the next blog post. Stick around for tips, tutorials, and the occasional tech rant!
