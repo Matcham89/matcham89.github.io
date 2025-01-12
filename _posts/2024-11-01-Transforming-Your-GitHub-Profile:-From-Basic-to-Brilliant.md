@@ -68,3 +68,5 @@ Regularly update your profile to reflect new skills, projects, and achievements.
 
 By following these steps, you’ll create a GitHub profile that stands out and effectively showcases your abilities. Dive in, experiment, and have fun with it!
 
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/TvUQD-qjidY?list=TLGG_UoDaFOc2awxMjAxMjAyNQ" title="Help Get a Job In Tech With This GitHub Trick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
