@@ -9,8 +9,6 @@ layout: splash
 [![My Skills](https://skillicons.dev/icons?i=bash,gcp,git,grafana,kubernetes,terraform,vscode)](https://skillicons.dev)
 
 
-About Me
-
 Hey there! 👋 I'm Chris, a Google Cloud Engineer with a knack for turning chaotic clouds into well-orchestrated skies. 🌤️ When I'm not herding Kubernetes clusters or automating pipelines, you’ll find me exploring new tools, tweaking my setups, or occasionally celebrating when a CI/CD workflow works on the first try (rare, but it happens!).
 A Few Things About Me:
 
