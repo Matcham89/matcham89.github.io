@@ -1,13 +1,5 @@
 ---
 layout: splash
-title: "My Splash Page"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/header.jpg
-  actions:
-    - label: "Get Started"
-      url: "/docs/getting-started/"
 feature_row:
   - image_path: /assets/images/KinD_logo.png
     alt: "KinD Logo"
