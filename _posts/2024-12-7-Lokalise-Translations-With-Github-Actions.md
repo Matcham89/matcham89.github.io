@@ -6,8 +6,6 @@ layout: splash
 
 # Automating Translation File Uploads to Lokalise with GitHub Actions  
 
-#### Introduction  
-
 Recently, I faced the intricate challenge of automating the upload of translation files to Lokalise using GitHub Actions. This journey involved multiple trials with different base64 encoding methods and countless refinements to achieve a seamless solution. Here’s a detailed account of the problem, my efforts, and the ultimate solution.  
 
 #### The Challenge  
