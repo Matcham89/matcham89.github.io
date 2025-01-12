@@ -1,7 +1,7 @@
 ---
 layout: splash
 feature_row:
-  - image_path: /assets/images/KinD_logo.png
+  - image_path: "/assets/images/KinD_logo.png"
     alt: "KinD Logo"
     title: "Kubernetes in Docker (KinD)"
     excerpt: "Learn how to use KinD for Kubernetes testing and development with simple tools."
