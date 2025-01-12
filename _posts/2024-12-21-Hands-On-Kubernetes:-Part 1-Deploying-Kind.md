@@ -103,7 +103,7 @@ touch Dockerfile
 
 Update the `app.py` with the below:
 
-```python
+```py
 # app.py
 from flask import Flask, render_template_string
 import os
@@ -118,21 +118,17 @@ def home():
 
     # HTML Template to render in the browser
     html_template = """
-    
     {{ title }}
     
         {{ app_message }}
         Vault Secret: {{ secret }}
         Other Secret: {{ other_secret }}
-    
-    
     """
     return render_template_string(html_template, 
                                     title="Environment-Application", 
                                     app_message=app_message, 
                                     secret=secret, 
                                     other_secret=other_secret)
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
 ```
