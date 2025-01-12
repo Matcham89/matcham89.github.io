@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : # "Chris Matcham"
-  avatar           : "/assets/images/bio-image.png"
+  avatar           : "/assets/images/bio-image.jpeg"
   bio              : "Platform Engineer" #"I am an **amazing** person."
   location         : #"Somewhere"
   email            :
