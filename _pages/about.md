@@ -15,9 +15,13 @@ Hey there! 👋 I'm Chris, a Google Cloud Engineer with a knack for turning chao
 A Few Things About Me:
 
 💻 Cloud Whisperer: I thrive on building scalable, secure, and automated solutions that make the cloud behave just right.
+
 🔧 K8s Tinkerer: From Helm charts to secrets management, Kubernetes is my playground.
+
 📊 Grafana Fan: Turning boring metrics into dashboards that even non-techies can appreciate.
+
 🐚 Bash Believer: For when I need to automate all the things.
+
 ☕ Code & Coffee Enthusiast: Fuel for the brain while debugging YAML files and pipelines.
 
 My Tech Playground:
