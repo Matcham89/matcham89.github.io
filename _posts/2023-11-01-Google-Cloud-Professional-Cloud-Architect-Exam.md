@@ -1,10 +1,11 @@
 ---
-layout: splash
-feature_row:
-  - image_path: assets/images/gcp-art-logo.png
-    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
+classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header.jpg
+  teaser: /assets/images/gcp-art-logo.png
+  og_image: /assets/images/gcp-art-logo.png
 ---
 
 <br />

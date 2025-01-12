@@ -1,10 +1,9 @@
 ---
-layout: splash
-feature_row:
-  - image_path: assets/images/github-logo.png
-    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
+classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header.jpg
 ---
 
 <br />

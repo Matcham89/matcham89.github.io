@@ -1,13 +1,9 @@
 ---
-layout: splash
-feature_row:
-  - image_path: "/assets/images/KinD_logo.png"
-    alt: "KinD Logo"
-    title: "Kubernetes in Docker (KinD)"
-    excerpt: "Learn how to use KinD for Kubernetes testing and development with simple tools."
-    url: "/docs/kind/"
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
+classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header.jpg
 ---
 
 <br />

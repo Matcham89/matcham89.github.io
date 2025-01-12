@@ -1,8 +1,10 @@
 ---
-layout: splash
+classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header.jpg
 ---
-
-<br />
 
 ArgoCD has become a cornerstone for managing Kubernetes deployments, offering a declarative GitOps approach to continuous delivery. As deployments grow in complexity, the need for multi-source deployments becomes apparent, allowing for greater flexibility and integration with various tools. Recently, I aimed to integrate Google Config Connector as an additional source to support ArgoCD and Kubernetes management. This blog explores the journey, challenges, and solutions I discovered along the way.
 
