@@ -1,5 +1,10 @@
 ---
 layout: splash
+feature_row:
+  - image_path: assets/images/KinD_logo.png
+    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
 ---
 
 <br />
