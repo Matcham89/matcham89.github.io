@@ -1,5 +1,4 @@
 ---
 permalink: /posts/
+layout: posts
 ---
-
-Posts

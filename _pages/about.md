@@ -1,7 +1,6 @@
 ---
 permalink: /about/
-layout: home
-classes: wide
+layout: splash
 ---
 
 [![My Skills](https://skillicons.dev/icons?i=bash,gcp,git,grafana,kubernetes,terraform,vscode)](https://skillicons.dev)
