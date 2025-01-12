@@ -1,3 +1,9 @@
+---
+layout: splash
+---
+
+<br />
+
 When diving into Kubernetes, having a reliable local development environment is crucial. In this post, I'll walk through setting up a local Kubernetes cluster using KIND (Kubernetes IN Docker) and deploying a simple application to it.
 
 #### Assumptions

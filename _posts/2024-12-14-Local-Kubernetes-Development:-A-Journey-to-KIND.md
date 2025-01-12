@@ -1,3 +1,8 @@
+---
+layout: splash
+---
+
+<br />
 
 As developers, we often seek ways to replicate production environments locally. This becomes particularly challenging when working with Kubernetes and its rich ecosystem of tools like Argo Workflows and HashiCorp Vault. While managed services like Google Kubernetes Engine (GKE) offer a path of least resistance with their automated load balancers and managed control planes, they come with substantial costs and, perhaps more importantly, abstract away valuable learning opportunities.
 
