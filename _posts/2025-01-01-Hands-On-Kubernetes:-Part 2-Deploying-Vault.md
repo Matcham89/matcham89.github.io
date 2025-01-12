@@ -1,5 +1,10 @@
+---
+layout: splash
+classes:
+  - landing
+  - dark-theme
+---
 
-classes: wide
 
 In Part 1, we deployed a simple application on Kubernetes. Now, let’s introduce Vault to manage secrets dynamically. Our goal is to populate an environment variable in the app with a secret stored in Vault. We will manually unseal Vault and use the Vault Agent Injector to handle secret injection.
 
