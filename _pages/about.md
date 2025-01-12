@@ -25,7 +25,7 @@ A Few Things About Me:
 My Tech Playground:
 
 * Kubernetes: Managing containers like they’re my favorite pets (they kind of are).
-* ☁️ Google Cloud Platform: Where the magic of scalability and reliability happens.
+* Google Cloud Platform: Where the magic of scalability and reliability happens.
 * Helm: Because who doesn’t love neat package management?
 * Terraform: IaC wizardry to keep things consistent and predictable.
 * CI/CD Tools: Streamlining development processes so code goes from idea to production in record time.
