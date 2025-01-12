@@ -1,4 +1,6 @@
 ---
+header:
+  teaser: hashicorp-vault-logo.jpg
 classes:
   - wide
 ---
