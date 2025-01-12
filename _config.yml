@@ -113,8 +113,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chris Matcham"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : # "Chris Matcham"
+  avatar           : "/assets/images/bio-image.png"
   bio              : "Platform Engineer" #"I am an **amazing** person."
   location         : #"Somewhere"
   email            :
