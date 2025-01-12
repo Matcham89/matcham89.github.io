@@ -104,7 +104,7 @@ This method allows application engineers to use raw Google Config Connector mani
 
 The only required Helm template was an instruction to read the Config Connector directory. Additionally, I added lines to ignore service account creation to maintain control over resource creation.
 
-```yaml
+```sh
 {{- $files := .Files.Glob "config-connector/*.yaml" }}
 {{- if $files }}
   {{- range $filename, $file := $files }}
@@ -135,7 +135,11 @@ The final step was to copy the contents of the Config Connector directory from t
 Improving CircleCI pipelines involves using the `argocd cli` commands in a more fine-grained fashion. To resolve the long wait times involved with the `app of apps` sync times, I used the resource flag to sync only the one child app inside the parent.
 
 ```sh
-argocd app sync $PARENT-APP   --resource argoproj.io:Application:$NAMESPACE/$APPLICATION-NAME   --server $SERVER --auth-token $TOKEN --grpc-web
+argocd app sync $PARENT-APP \
+--resource argoproj.io:Application:$NAMESPACE/$APPLICATION-NAME \
+--server $SERVER \
+--auth-token $TOKEN \
+--grpc-web
 ```
 
 Once the sync is complete and successful, I sync the child application as well.
