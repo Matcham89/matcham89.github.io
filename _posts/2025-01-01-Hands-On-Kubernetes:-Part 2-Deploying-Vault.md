@@ -1,10 +1,5 @@
 ---
-header:
-  teaser: /assets/images/hashicorp-vault-logo.jpg
-  images: /assets/images/hashicorp-vault-logo.jpg
-classes:
-  - wide
-layout: home
+layout: splash
 ---
 
 
