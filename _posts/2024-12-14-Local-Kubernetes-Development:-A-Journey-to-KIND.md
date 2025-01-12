@@ -1,7 +1,11 @@
 ---
 layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header.jpg
 feature_row:
-  - image_path: assets/images/KinD_logo.png
+  - image_path: /assets/images/KinD_logo.png
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
