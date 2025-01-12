@@ -1,3 +1,14 @@
+---
+layout: splash
+feature_row:
+  - image_path: assets/images/gcp-art-logo.png
+    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+---
+
+<br />
+
 Today, I’m sharing my journey to passing the GCP Professional Cloud Architect exam in 2023.
 
 ### Overview of the Exam
