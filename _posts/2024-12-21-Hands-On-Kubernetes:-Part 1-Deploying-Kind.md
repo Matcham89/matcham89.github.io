@@ -155,14 +155,14 @@ Log into Docker
 docker login -u USERNAME
 ```
 
-Nothing fancy here, build the application and tag it with "app".
-
-Push it to your local registry.
+Nothing fancy here, build the application and tag it with "app:latest".
 
 ```sh
-Nothing fancy here, build the application and tag it with "app-a" and "app-b".
+docker build . -t USERNAME/app:latest
+docker push USERNAME/app:latest
 ```
 
+Push it to your local registry.
 
 #### Deploying to Kubernetes
 
