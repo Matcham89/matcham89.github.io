@@ -1,4 +1,6 @@
 ---
 permalink: /posts/
-layout: posts
+layout: 
+    - posts
+    - splash
 ---
