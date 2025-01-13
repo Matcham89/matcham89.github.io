@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/images/header.jpg
 ---
 
+
 <br />
 
 Today, we're diving into how to transform your GitHub profile from basic to brilliant. Whether you're new to GitHub or a seasoned coder, showcasing your skills and projects effectively can make a huge difference.
