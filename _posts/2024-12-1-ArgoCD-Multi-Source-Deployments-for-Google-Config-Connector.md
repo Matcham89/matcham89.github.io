@@ -58,7 +58,7 @@ The 'app of apps' pattern in ArgoCD is a hierarchical approach where a single pa
 
 The ArgoCD application manifest YAML I came up with is as follows:
 
-```yaml
+```yml
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -88,7 +88,7 @@ I provide this manifest to the parent application in the `app of apps`. With thi
 
 To ensure a smooth deployment and developer process, I decided to use raw Config Connector manifests provided by Google. The benefit is that engineers wanting to create a resource will have all the official documentation to support them. To achieve this, I added an additional directory to the application repo to support the ArgoCD application manifest:
 
-```sh
+```plaintext
 config-connector/
   runbook.md
   pubsubsubscription.yaml
@@ -105,7 +105,8 @@ This method allows application engineers to use raw Google Config Connector mani
 
 The only required Helm template was an instruction to read the Config Connector directory. Additionally, I added lines to ignore service account creation to maintain control over resource creation.
 
-```sh
+```liquid
+{% raw %}
 {{- $files := .Files.Glob "config-connector/*.yaml" }}
 {{- if $files }}
   {{- range $filename, $file := $files }}
@@ -126,7 +127,8 @@ The only required Helm template was an instruction to read the Config Connector 
   {{- end }}
 {{- else }}
 # No config connector files found
-{{- end }}
+{{- end }}      
+{% endraw %}
 ```
 
 The final step was to copy the contents of the Config Connector directory from the application repo to the central GitOps repo, allowing the application manifest to recognize and build the necessary resources. This was done using a `cp` step in the CircleCI pipeline.
